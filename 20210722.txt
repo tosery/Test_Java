@@ -1,0 +1,39 @@
+컴포넌트 버튼 등등
+
+그래픽기반
+
+Object는 최상위 부모라서 extends가 생략되어있다.
+
+JLabel
+JButton
+등등
+공통메소드
+
+초록 프레임
+파란색 버튼
+
+API
+
+JList<E> 
+JList는 클래스이다
+<E>앞에는 Data를 담는 Container
+
+하이레벨 배열이라 생각하라
+
+String [ ] = new String[10];
+S[0] = new String
+
+Jlist랑 vector 쓰는 방법을 익혀라
+
+
+
+
+
+
+
+
+
+
+
+
+
