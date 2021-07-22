@@ -38,7 +38,24 @@ public class MouseListenerAllEx extends JFrame
 		public void mouseEntered(MouseEvent e)
 		{
 			Component c = (Component)e.getSource();
-			c.setBackground();
+			c.setBackground(Color.CYAN);
 		}
+		public void mouseExited(MouseEvent e)
+		{
+			Component c = (Component)e.getSource();
+			c.setBackground(Color.YELLOW);
+		}
+		public void mouseDragged(MouseEvent e)
+		{
+			la.setText("MouseDragged ("+e.getX()+","+e.getY()+")");
+		}
+		public void mouseMoved(MouseEvent e)
+		{
+			la.setText("MouseMoved ("+e.getX()+","+e.getY()+")");
+		}
+	}
+	public static void main(String [] args)
+	{
+		new MouseListenerAllEx();
 	}
 }
